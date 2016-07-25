@@ -19,5 +19,5 @@ applications:
   instances: 1
   memory: 256M
   env:
-    LINKEDIN_APPKEY: ENTER VALUE
-    LINKEDIN_APPSECRET: ENTER VALUE
+    LINKEDIN_APPKEY: 77yk5dvww9b5av
+    LINKEDIN_APPSECRET: sunO7zIMVKavo08u
