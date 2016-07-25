@@ -1,18 +1,18 @@
 declared-services:
   Concept Insights-fc:
     label: concept_insights
-    plan: standard
-  Personality Insights CHH:
+    plan: Standard
+  Personality Insights-fk:
     label: personality_insights
     plan: tiered
-  Cloudant NoSQL CHH: 
+  Cloudant NoSQL DB-g8: 
     label: cloudantNoSQLDB
     plan: Shared
 applications:
 - services:
-  - Concept Insights CHH
-  - Cloudant NoSQL CHH
-  - Personality Insights CHH
+  - Concept Insights-fc
+  - Cloudant NoSQL DB-g8
+  - Personality Insights-fk
   disk_quota: 128M
   buildpack: sdk-for-nodejs
   path: .
